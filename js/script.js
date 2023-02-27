@@ -2,7 +2,7 @@ const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 const btnNavEl = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector(".header");
-const allLinks = document.querySelectorAll("a:link");
+const allLinks = document.querySelectorAll(".nav-link");
 
 // Set current year
 yearEl.textContent = currentYear;
@@ -42,7 +42,6 @@ const sectionHeroEl = document.querySelector(".section-hero");
 const obs = new IntersectionObserver(
   function (entries) {
     const ent = entries[0];
-    console.log(ent);
 
     if (ent.isIntersecting === false) {
       document.body.classList.add("sticky");
