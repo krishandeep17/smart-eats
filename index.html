@@ -64,19 +64,31 @@
   </head>
   <body>
     <header class="header" id="header">
-      <a href="#">
+      <a href="#" class="nav-link">
         <img class="logo" alt="Food Brain logo" src="img/eatwell-logo.png" />
       </a>
 
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#how">How it works</a></li>
-          <li><a class="main-nav-link" href="#meals">Meals</a></li>
           <li>
-            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+            <a class="main-nav-link nav-link" href="#how">How it works</a>
           </li>
-          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
-          <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
+          <li>
+            <a class="main-nav-link nav-link" href="#meals">Meals</a>
+          </li>
+          <li>
+            <a class="main-nav-link nav-link" href="#testimonials"
+              >Testimonials</a
+            >
+          </li>
+          <li>
+            <a class="main-nav-link nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li>
+            <a class="main-nav-link nav-cta nav-link" href="#cta"
+              >Try for free</a
+            >
+          </li>
         </ul>
       </nav>
 
@@ -98,11 +110,13 @@
               Food Brain again. Personalized to meet your taste and dietary
               requirements.
             </p>
-            <a href="#cta" class="btn btn--full margin-right-sm"
+            <a href="#cta" class="btn btn--full margin-right-sm nav-link"
               >Start eating well</a
             >
 
-            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
+            <a href="#how" class="btn btn--outline nav-link"
+              >Learn more &darr;</a
+            >
             <div class="delivered-meals">
               <div class="delivered-imgs">
                 <img src="img/customers/customer-1.jpg" alt="Customer photo" />
@@ -335,7 +349,7 @@
         </div>
 
         <div class="container all-recipes">
-          <a href="#" class="link">See all recipes &rarr;</a>
+          <a href="#" class="link nav-link">See all recipes &rarr;</a>
         </div>
       </section>
 
@@ -521,7 +535,7 @@
               </li>
             </ul>
             <div class="plan-sing-up">
-              <a href="#" class="btn btn--full">Start eating well</a>
+              <a href="#" class="btn btn--full nav-link">Start eating well</a>
             </div>
           </div>
 
@@ -550,7 +564,7 @@
               </li>
             </ul>
             <div class="plan-sing-up">
-              <a href="#" class="btn btn--full">Start eating well</a>
+              <a href="#" class="btn btn--full nav-link">Start eating well</a>
             </div>
           </div>
         </div>
@@ -645,9 +659,6 @@
                 </div>
 
                 <button class="btn btn--form">Sign up now</button>
-
-                <!-- <input type="checkbox" />
-                <input type="number" /> -->
               </form>
             </div>
             <div
@@ -663,7 +674,7 @@
     <footer class="footer">
       <div class="container grid grid--footer">
         <div class="logo-col">
-          <a href="#" class="footer-logo">
+          <a href="#" class="footer-logo nav-link">
             <img
               class="logo"
               alt="Food Brain logo"
@@ -673,18 +684,39 @@
 
           <ul class="social-links">
             <li>
-              <a class="footer-link" href="#"
+              <a
+                class="footer-link"
+                href="https://www.instagram.com/krishandeep17"
+                target="_blank"
+                rel="noopener noreferrer"
                 ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
               ></a>
             </li>
             <li>
-              <a class="footer-link" href="#"
-                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              <a
+                class="footer-link"
+                href="https://www.linkedin.com/in/krishandeep17"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><ion-icon class="social-icon" name="logo-linkedin"></ion-icon
               ></a>
             </li>
             <li>
-              <a class="footer-link" href="#"
-                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              <a
+                class="footer-link"
+                href="https://github.com/krishandeep17"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><ion-icon class="social-icon" name="logo-github"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                class="footer-link"
+                href="https://codepen.io/krishandeep"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><ion-icon class="social-icon" name="logo-codepen"></ion-icon
               ></a>
             </li>
           </ul>
@@ -699,7 +731,7 @@
           <p class="footer-heading">Contact us</p>
           <address class="contacts">
             <p class="address">
-              623 Harrison St., 2nd Floor, San Francisco, CA 94107
+              50 Chakravarti Ashok Road Kandivli, Delhi, 110061, India
             </p>
             <p>
               <a class="footer-link" href="tel:+919560134360">+91 9560134360</a
@@ -714,29 +746,45 @@
         <nav class="nav-col">
           <p class="footer-heading">Account</p>
           <ul class="footer-nav">
-            <li><a class="footer-link" href="#">Create account</a></li>
-            <li><a class="footer-link" href="#">Sign in</a></li>
-            <li><a class="footer-link" href="#">iOS app</a></li>
-            <li><a class="footer-link" href="#">Android app</a></li>
+            <li>
+              <a class="footer-link nav-link" href="#">Create account</a>
+            </li>
+            <li><a class="footer-link nav-link" href="#">Sign in</a></li>
+            <li><a class="footer-link nav-link" href="#">iOS app</a></li>
+            <li>
+              <a class="footer-link nav-link" href="#">Android app</a>
+            </li>
           </ul>
         </nav>
 
         <nav class="nav-col">
           <p class="footer-heading">Company</p>
           <ul class="footer-nav">
-            <li><a class="footer-link" href="#">About Food Brain</a></li>
-            <li><a class="footer-link" href="#">For Business</a></li>
-            <li><a class="footer-link" href="#">Cooking partners</a></li>
-            <li><a class="footer-link" href="#">Careers</a></li>
+            <li>
+              <a class="footer-link nav-link" href="#">About Food Brain</a>
+            </li>
+            <li>
+              <a class="footer-link nav-link" href="#">For Business</a>
+            </li>
+            <li>
+              <a class="footer-link nav-link" href="#">Cooking partners</a>
+            </li>
+            <li><a class="footer-link nav-link" href="#">Careers</a></li>
           </ul>
         </nav>
 
         <nav class="nav-col">
           <p class="footer-heading">Resources</p>
           <ul class="footer-nav">
-            <li><a class="footer-link" href="#">Recipe directory </a></li>
-            <li><a class="footer-link" href="#">Help center</a></li>
-            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+            <li>
+              <a class="footer-link nav-link" href="#">Recipe directory </a>
+            </li>
+            <li>
+              <a class="footer-link nav-link" href="#">Help center</a>
+            </li>
+            <li>
+              <a class="footer-link nav-link" href="#">Privacy & terms</a>
+            </li>
           </ul>
         </nav>
       </div>
