@@ -1,11 +1,15 @@
-# Frontend Project
+# Frontend Project - Landing Page
 
-This is a frontend project for a website called [Food Brain](https://foodbrain.netlify.app "Food Brain"), which utilizes HTML, CSS, and JavaScript to create a beautiful and responsive user interface.
+This is a beautiful and responsive landing page website built using HTML, CSS, and JavaScript. The website is designed to be visually appealing, easy to navigate, and fully responsive across all devices.
+
+To view the website, simply visit <https://smarteats.netlify.app>.
 
 ## Features
 
-- User-friendly interface that is easy to navigate and provides an enjoyable user experience.
-- Fully responsive design that adapts to different screen sizes and devices.
+- **Responsive design**: The website is fully responsive, adapting to all device sizes.
+- **Visually appealing design**: The website features beautiful and modern design elements, including a hero image and custom fonts.
+- **Easy navigation**: The website includes a clear and concise navigation menu that makes it easy for users to find the information they need.
+- **Sign up form**: The website includes a sign up form also.
 
 ## Technologies Used
 
@@ -15,7 +19,8 @@ This is a frontend project for a website called [Food Brain](https://foodbrain.n
 
 ## Getting Started
 
-To run this project locally, simply download or clone the repository and open the **index.html** file in your preferred web browser.
+1. Clone the repository onto your local machine.
+2. Open the `index.html` file in your web browser to view the website.
 
 ## Contributing
 

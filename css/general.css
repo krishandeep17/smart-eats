@@ -228,3 +228,7 @@ body {
 strong {
   font-weight: var(--fw-medium);
 }
+
+.word-break {
+  word-break: break-all;
+}
